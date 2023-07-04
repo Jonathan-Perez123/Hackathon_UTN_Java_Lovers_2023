@@ -1,0 +1,57 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+  }
+ 
+  header {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px;
+    text-align: center;
+  }
+ 
+  section {
+    margin: 15px;
+  }
+ 
+  h2 {
+    color: #007BFF;
+  }
+ 
+  form {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 5px;
+  }
+ 
+  .carousel {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+  }
+ 
+  .carousel-item {
+    flex: 0 0 auto;
+    margin-right: 15px;
+    width: 100%;
+    scroll-snap-align: start;
+  }
+ 
+  .carousel-item a {
+    display: block;
+    text-decoration: none;
+    color: black;
+  }
+ 
+  .carousel-item img {
+    max-width: 100%;
+    height: auto;
+  }
+ 
+  .carousel-item span {
+    display: block;
+    text-align: center;
+  }
+
+
+
